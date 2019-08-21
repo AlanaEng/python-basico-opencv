@@ -8,8 +8,8 @@ matrizNumpy = numpy.array(matrizByte)
 
 # converte a matriz para criar uma imagem em escala de cinza de 400 x 300
 imagemCinza = matrizNumpy.reshape(300, 800)
-cv2.imwrite('BancoDados\imagemCinza.png', imagemCinza)
+cv2.imwrite('bancoDados\imagemCinza.png', imagemCinza)
 
 # converte a matriz para criar uma imagem colorida de 400 x 100
 imagemRGB = matrizNumpy.reshape(100, 800, 3)
-cv2.imwrite('BancoDados\imagemRGB.png', imagemRGB)
+cv2.imwrite('bancoDados\imagemRGB.png', imagemRGB)
