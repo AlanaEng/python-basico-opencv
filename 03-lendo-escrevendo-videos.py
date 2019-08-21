@@ -24,7 +24,7 @@ codificacao = cv2.VideoWriter_fourcc('I', '4', '2', '0')
 
 salvaVideo = cv2.VideoWriter('bancoDados/testeVideo01.avi', codificacao, fps, tamanho)
 
-# inicializa a leitura do video
+# inicializa a leitura do video.
 rodavideo, quadros = capturaVideo.read()
 
 # o arquivo é salvo sem audio, pois a OpenCV trabalha com Visão computacional e não com edição de vídeo.
