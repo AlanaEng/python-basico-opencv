@@ -30,4 +30,3 @@ rodavideo, quadros = capturaVideo.read()
 # o arquivo é salvo sem audio, pois a OpenCV trabalha com Visão computacional e não com edição de vídeo.
 while rodavideo:
     salvaVideo.write(quadros)
-    rodavideo, quadros = capturaVideo.read()
