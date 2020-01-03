@@ -31,5 +31,5 @@ rodavideo, quadros = capturaCamera.read()
 # o loop acontece até que não tenha mais frames
 while rodavideo:
     salvaVideo.write(quadros)
-    rodavideo, quadros = capturaCamera.read()
+    
 
